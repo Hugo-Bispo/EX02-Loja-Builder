@@ -17,8 +17,8 @@ public class Principal {
 		ArrayList<Produto> produtos = new ArrayList<Produto>();
 			
 		Produto calcado1 = ProdutoBuilder.builder()
-			.addCalcado(40,"Rosa",TipoCalcado.TENIS, 85.50)
-			.get_calcado();	
+				.addCalcado(40,"Rosa",TipoCalcado.TENIS, 85.50)
+				.get_calcado();	
 		
 		Produto calcado2 = ProdutoBuilder.builder()
 				.addCalcado(45,"Preto",TipoCalcado.SOCIAL, 100.00)

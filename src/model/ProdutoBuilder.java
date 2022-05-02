@@ -49,19 +49,19 @@ public class ProdutoBuilder {
 	}
 	
 	public Produto get_calcado() {
-		return this.calcado;
+		return calcado;
 	}
 	
 	public Produto get_camiseta() {
-		return this.camiseta;
+		return camiseta;
 	}
 	
 	public Produto get_jogo() {
-		return this.jogo;
+		return jogo;
 	}
 	
 	public Produto get_storage() {
-		return this.storage;
+		return storage;
 	}
 	
 }
